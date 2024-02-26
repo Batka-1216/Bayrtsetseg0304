@@ -78,6 +78,7 @@ button:hover {
 
 .popup {
     display: none;
+    flex-direction: column;
     background-color: #fff;
     border: 1px solid #e91e63;
     /* Romantic color for the border */
@@ -92,7 +93,9 @@ button:hover {
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
     color: #e91e63;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    width: 50%;
+    height: max-content;
     /* Romantic color for the popup text */
     /* height: max-content; */
 }
@@ -106,9 +109,15 @@ button:hover {
 }
 
 .thank-img-container{
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
+        margin: auto;
     }
+.thank-img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
